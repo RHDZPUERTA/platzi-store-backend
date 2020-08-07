@@ -1,0 +1,27 @@
+language: node_js
+cache:
+  directories:
+    - node_modules
+    - ~/.npm
+node_js:
+  - '12'
+git:
+  depth: 3
+script:
+  - yarn test
+notifications:
+  slack: rubsdevs:Takp695RMVSby1ujDRZwqZJM
+  email:
+    recipients:
+      - limonais13@gmail.com
+      - ruben.hdzpuerta@gmail.com
+    on_success: always
+    on_failure: always
+deploy:
+  provider: heroku
+  skip_cleanup: true
+  keep_history: true
+  api_key: aa9b4d0b-b4c8-4ca3-9f98-062ea8bd3538
+  app: platzi-store-rubsdevs
+  on:
+    repo: RHDZPUERTA/platzi-store-backend
