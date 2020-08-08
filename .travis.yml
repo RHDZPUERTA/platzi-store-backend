@@ -10,7 +10,9 @@ git:
 script:
   - yarn test
 notifications:
-  slack: rubsdevs:Takp695RMVSby1ujDRZwqZJM
+  slack: 
+    secure: "H0Os9pqkX/N+85F1+kkKJfaJmL71/ABXRwAqW+wR9Zt0XhUq6p933Iyb9TYLPm0tQs7lyKwGQUAwykoh5lWlYDZaWzgns94RPBQS7cbNXk3w7T8on8TqGZDHR7RpBwxzcQRVVWYSE0nKVNL6ob8ZSP0NZHZjCmYIp/EU2eTDrHQu1EDnA5qzKpfBhFH7ynBwUyGu4rMuehzN1EHIFsRjddyX31ZkrHdYPgNfUHo561hDSxvkesyBZhLvYYvNnWsAt15P8M7UHj8Q8/2VqXE1HECakxmeKxy+iWrgDZj8WXSuqTFzfGgOHMqhbIUds+4Kocm9PNfeMdCoHFRIMuXhAZYzC04bKBZEyC9y1fui0tuU0sUhduJpklZwCBXXSddobffUAtyaJ8u6MIn6VH8N1WP0/KN9Sa/QQmzhVOIxUMS9cOHG3+vPKFU3PmN/L16O3cVyGs/y9cj+qW6H7kAY7cmYWCySi0CWGJvF+akAI60VJ1iuubkRGjAMDZXN5hMriirbVJcK0NvCFAFwGJPIyS7Y3JWBEfuYIYTD0YE/XqLIuf03a3KM77EzWg2Tjy9EDrajKzk3kAeGFsMHR4f6CpeOovtP646FFxBKm96EnI+r/Gfe+H3x4ek5zi1ntTWXPn/WW9KK5VcJdMqfuxEhT26ftWgryfrT4xE6vNL+WgE="
+
   email:
     recipients:
       - limonais13@gmail.com
@@ -21,7 +23,8 @@ deploy:
   provider: heroku
   skip_cleanup: true
   keep_history: true
-  api_key: aa9b4d0b-b4c8-4ca3-9f98-062ea8bd3538
+  api_key: 
+    secure: "C9swYlqJyDCu2r8r0db4/oqTBgus4Gc7//NEoZDJynyYqJ4Q7y0XMhx+9nNQmcbfL6LtQIPBkE3GZJRojXsv4PmfWspdPM+IU2LwaMBcoJaj0B4NfAwoWen3IlTMlbSqTbgv4Ha3IXIQhlx4Sc54mD3bRijimEIOYVQLeYah9iniM55qKcF2Q8YRg6LUjugenrRkEwm/fY4cdvyyJrefbX12CaFv/k8rQBAmId+tp6Oh+za0GXQbhqmjrEjHKHHxzg2FCtnvq/PLp/s9w7zD+goxkz5GDSohAXCG7mJg0ASwKmlSiOUaEkEMU7QY5nYYvnadsP0AjBIbxF/qmXutNcDm2tfifASNwUcfUJ8JtSlewc24EVhDp+QwYUXG9vtla6oW/zMlYFmuzCUlQw3+vADEndY0PIJ+JPnfF388yTZ/gPlU8uXckZNMVBWIE0JHPIwYh1cJQJsOUmot61ZU63AUb4JbLMfc+KAeX9YQQl2huGKg8eMDYLOjW4LvTxopbsKDPipoVyi+Mj7H07ITMcOvPjAGlh8OB6g5iuFhok5uTYIWHlSLBv/bE3O10UofiFvt9IJoXlg/kvsJ+Y6ZDHNf/cIT1pzvjUM0PvLDtgzxElLqMciK3L8rXGaWaF6LioUFw9/MfSYOy5CRXo5zYoLOiLeG6u5uCn9ukiLutHs="
   app: platzi-store-rubsdevs
   on:
     repo: RHDZPUERTA/platzi-store-backend
